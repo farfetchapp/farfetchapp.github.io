@@ -1,0 +1,407 @@
+@font-face {
+    font-family: Time Burner;
+    src: url('../fonts/Time Burner.ttf');
+}
+
+@font-face {
+    font-family: TwCenMT Regular;
+    src: url('../fonts/TwCenMT Regular.ttf');
+}
+
+html {
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+}
+
+body {
+	color: #222222;
+	font-size: 12pt;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+#header {
+	background: url('../images/clouds.gif');
+	background-repeat: repeat-x;
+	height: 20%;
+	margin-top: -2%;
+	position: absolute;
+	width: 100%;
+}
+
+#logo {
+	height: 22%;
+	left: 7%;
+	top: 5%;
+	position: absolute;
+	width: 32%;
+}
+
+#logo_image {
+	height: 100%;
+	width: 100%;
+}
+
+#tagline {
+	font-family: Time Burner;
+	font-size: 24pt;
+	height: 12%;
+	letter-spacing: 2.3px;
+	margin-top: 10.5%;
+	position: absolute;
+	left: 7%;
+	width: 32%;
+}
+
+#bullet1 {
+	background: url('../images/bullet_selected.png') no-repeat;
+	height: 100%;
+	position: absolute;
+	top: 15%;
+	right: 55.5%;
+	width: 2.75%;
+}
+
+#bullet2 {
+	background: url('../images/bullet_unselected.png') no-repeat;
+	height: 100%;
+	position: absolute;
+	top: 15%;
+	right: 52.5%;
+	width: 2.75%;
+}
+
+#bullet3 {
+	background: url('../images/bullet_unselected.png') no-repeat;
+	height: 100%;
+	position: absolute;
+	top: 15%;
+	right: 49.5%;
+	width: 2.75%;
+}
+
+#bullet4 {
+	background: url('../images/bullet_unselected.png') no-repeat;
+	height: 100%;
+	position: absolute;
+	top: 15%;
+	right: 46.5%;
+	width: 2.75%;
+}
+
+#bullet5 {
+	background: url('../images/bullet_unselected.png') no-repeat;
+	height: 100%;
+	position: absolute;
+	top: 15%;
+	right: 43.5%;
+	width: 2.75%;
+}
+
+#arrow_left {
+	background: url('../images/arrow_left.png') no-repeat;
+	height: 9.5%;
+	left: 2%;
+	opacity: 0.25;
+	position: absolute;
+	top: 52%;
+	visibility: hidden;
+	width: 2.5%;
+}
+
+#download_content {
+	height: 100%;
+	position: absolute;
+	right: 0%;
+	width: 100%;
+}
+
+#classic_content {
+	height: 100%;
+	position: absolute;
+	right: -150%;
+	width: 100%;
+}
+
+#king_of_the_hill_content {
+	height: 100%;
+	position: absolute;
+	right: -300%;
+	width: 100%;
+}
+
+#farsketch_content {
+	height: 100%;
+	position: absolute;
+	right: -450%;
+	width: 100%;
+}
+
+#contact_content {
+	height: 100%;
+	position: absolute;
+	right: -600%;
+	width: 100%;
+}
+
+#download_title {
+	font-family: Time Burner;
+	font-size: 30pt;
+	font-weight: bold;
+	height: 12%;
+	left: 10%;
+	margin-top: 20.5%; /*18%;*/
+	position: absolute;
+	width: 28%;
+}
+
+#download_description {
+	font-family: TwCenMT Regular;
+	font-size: 14pt;
+	height: 12%;
+	left: 10%;
+	margin-top: 24%; /*23.5%;*/
+	position: absolute;
+	width: 28%;
+}
+
+#download_buttons {
+	height: 12%;
+	left: 10%;
+	margin-top: 36%;
+	position: absolute;
+	width: 28%;
+}
+
+#smartphones {
+	bottom: 0%;
+	height: 65%;
+	position: absolute;
+	right: 8%;
+	width: 50%;
+}
+
+#smartphones_image {
+	height: 100%;
+	width: 100%;
+}
+
+#hill {
+	bottom: 4.5%;
+	height: 60%;
+	position: absolute;
+	right: 8.5%;
+	width: 50%;
+}
+
+#hill_image {
+	height: 100%;
+	width: 100%;
+}
+
+#tree {
+	bottom: 4.5%;
+	height: 65%;
+	position: absolute;
+	right: 5%;
+	width: 50%;
+}
+
+#tree_image {
+	height: 100%;
+	width: 100%;
+}
+
+#house {
+	bottom: 1.5%;
+	height: 60%;
+	position: absolute;
+	right: 8.5%;
+	width: 50%;
+}
+
+#house_image {
+	height: 100%;
+	width: 100%;
+}
+
+#classic_title {
+	font-family: Time Burner;
+	font-size: 30pt;
+	font-weight: bold;
+	height: 12%;
+	left: 10%;
+	margin-top: 20.5%;
+	position: absolute;
+	width: 28%;
+}
+
+#classic_caption {
+	color: #7f7f7f;
+	font-family: TwCenMT Regular;
+	font-size: 20pt;
+	font-weight: bold;
+	height: 12%;
+	left: 10%;
+	margin-top: 23.5%;
+	position: absolute;
+	width: 28%;
+}
+
+#classic_description {
+	font-family: TwCenMT Regular;
+	font-size: 14pt;
+	height: 12%;
+	left: 10%;
+	margin-top: 26%;
+	position: absolute;
+	width: 28%;
+}
+
+#king_of_the_hill_icon {
+	height: 6%;
+	left: 7.5%;
+	margin-top: 20.5%;
+	position: absolute;
+	width: 3%;
+}
+
+#king_of_the_hill_icon_image {
+	height: 100%;
+	width: 100%;
+}
+
+#king_of_the_hill_title {
+	font-family: Time Burner;
+	font-size: 30pt;
+	font-weight: bold;
+	height: 12%;
+	left: 10%;
+	margin-top: 20.5%;
+	position: absolute;
+	width: 28%;
+}
+
+#king_of_the_hill_caption {
+	color: #7f7f7f;
+	font-family: TwCenMT Regular;
+	font-size: 20pt;
+	font-weight: bold;
+	height: 12%;
+	left: 10%;
+	margin-top: 23.5%;
+	position: absolute;
+	width: 28%;
+}
+
+#king_of_the_hill_description {
+	font-family: TwCenMT Regular;
+	font-size: 14pt;
+	height: 12%;
+	left: 10%;
+	margin-top: 26%;
+	position: absolute;
+	width: 28%;
+}
+
+#farsketch_title {
+	font-family: Time Burner;
+	font-size: 30pt;
+	font-weight: bold;
+	height: 12%;
+	left: 10%;
+	margin-top: 20.5%;
+	position: absolute;
+	width: 28%;
+}
+
+#farsketch_caption {
+	color: #7f7f7f;
+	font-family: TwCenMT Regular;
+	font-size: 20pt;
+	font-weight: bold;
+	height: 12%;
+	left: 10%;
+	margin-top: 23.5%;
+	position: absolute;
+	width: 28%;
+}
+
+#farsketch_description {
+	font-family: TwCenMT Regular;
+	font-size: 14pt;
+	height: 12%;
+	left: 10%;
+	margin-top: 26%;
+	position: absolute;
+	width: 28%;
+}
+
+#contact_title {
+	font-family: Time Burner;
+	font-size: 30pt;
+	font-weight: bold;
+	height: 12%;
+	left: 10%;
+	margin-top: 20.5%;
+	position: absolute;
+	width: 28%;
+}
+
+#contact_caption {
+	color: #7f7f7f;
+	font-family: TwCenMT Regular;
+	font-size: 20pt;
+	font-weight: bold;
+	height: 12%;
+	left: 10%;
+	margin-top: 23.5%;
+	position: absolute;
+	width: 28%;
+}
+
+#contact_description {
+	font-family: TwCenMT Regular;
+	font-size: 14pt;
+	height: 12%;
+	left: 10%;
+	margin-top: 26%;
+	position: absolute;
+	width: 28%;
+}
+
+#arrow_right {
+	background: url('../images/arrow_right.png') no-repeat;
+	height: 9.5%;
+	right: 2%;
+	opacity: 0.25;
+	position: absolute;
+	top: 52%;
+	width: 2.5%;
+}
+
+#footer {
+	background-color: #1e951f;
+	bottom: 0px;
+	color: white;
+	font-family: Verdana;
+	height: 4.5%;
+	position: absolute;
+	width: 100%;
+}
+
+#footer_links {
+	left: 7%;
+	margin-top: 0.5%;
+	position: absolute;
+}
+
+#footer_copyright {
+	margin-top: 0.5%;
+	position: absolute;
+	right: 7%;
+}
