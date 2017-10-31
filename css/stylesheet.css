@@ -190,6 +190,19 @@ body {
 	width: 100%;
 }
 
+#tree {
+	bottom: 4.5%;
+	height: 65%;
+	position: absolute;
+	right: 5%;
+	width: 50%;
+}
+
+#tree_image {
+	height: 100%;
+	width: 100%;
+}
+
 #hill {
 	bottom: 4.5%;
 	height: 60%;
@@ -203,15 +216,15 @@ body {
 	width: 100%;
 }
 
-#tree {
+#fence {
 	bottom: 4.5%;
-	height: 65%;
+	height: 60%;
 	position: absolute;
-	right: 5%;
+	right: 8.5%;
 	width: 50%;
 }
 
-#tree_image {
+#fence_image {
 	height: 100%;
 	width: 100%;
 }
